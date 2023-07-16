@@ -1,0 +1,476 @@
+/*GENERAL DEL CSS*/
+
+* {
+
+    background-color: hsl(30, 4%, 20%);
+    color: rgb(231, 238, 245);
+    text-align: justify;
+    margin-left: 1px;
+    margin-right: 1px;
+    list-style: none;
+    margin: 3px;
+
+
+}
+
+h1 {
+ font-size: 25px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*HEADER*/
+
+.banner {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    border-top: 0;
+    display: flex;
+
+
+}
+
+.menu-item {
+    background-color: black;
+    padding: 0;
+    margin: o;
+    border-bottom: 0;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#menu-icon i.fa.fa-bars {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    background-color:  #ffbf00;
+    color: black;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+}
+
+.menu-icon__line {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ffbf00;
+}
+
+
+img.logo {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-left: 0;
+    display: flex;
+    justify-content: left;
+    align-items: last baseline;
+}
+
+h5 {
+    text-align: center;
+    background-color: black;
+    padding: 0;
+}
+
+#darModeBtn {
+
+    background-color: rgb(221, 183, 13);
+    color: black;
+}
+
+button.header_icono {
+
+    width: 50px;
+    height: 50px;
+    background-color: black;
+
+}
+
+nav.header_navegation {
+    background-color: black;
+
+}
+
+#header_nav button {
+    background-color: rgb(221, 183, 13);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+}
+
+#header_nav img {
+
+    width: 100%;
+    height: auto;
+
+}
+
+/*MAIN*/
+
+.contenido h1 {
+    background-color: hsl(30, 4%, 20%)
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(115, 118, 121);
+}
+
+.equipo {
+    background: linear-gradient(to right, rgb(107, 107, 23), rgb(245, 209, 3));
+
+    color: rgb(32, 32, 31);
+    text-align: center;
+}
+
+
+.equipo h1 {
+    background: linear-gradient(to right, rgb(107, 107, 23), rgb(245, 209, 3));
+
+    color: rgb(32, 32, 31);
+}
+
+.equipo p {
+
+    background: linear-gradient(to right, rgb(107, 107, 23), rgb(245, 209, 3));
+    color: rgb(32, 32, 31);
+
+}
+
+
+
+
+.Servicios h1 {
+
+    background-color: hsl(30, 4%, 20%);
+    color: rgb(231, 238, 245);
+    border-top: 0px;
+    border-bottom: 0px;
+
+}
+
+.Servicios p {
+    border-top: 0px;
+    border-bottom: 0px;
+    background-color: hsl(30, 4%, 20%);
+    color: rgb(38, 44, 3);
+
+}
+
+.Servicios ul {
+    background-color: hsl(30, 4%, 20%);
+    color: rgb(38, 44, 3);
+    ;
+}
+
+.Servicios ul {
+    background-color: hsl(30, 4%, 20%);
+    color: rgb(38, 44, 3);
+
+}
+
+.Servicios ul li {
+    background-color: hsl(30, 4%, 20%);
+    color: rgb(38, 44, 3);
+    ;
+
+}
+
+.Servicios p {
+
+    background-color: hsl(30, 4%, 20%);
+    ;
+    color: rgb(15, 15, 15);
+
+}
+
+
+#Servicios .Servicios .serv1 {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+
+}
+
+#Servicios .Servicios .serv1 li {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+}
+
+#Servicios .Servicios .serv2 {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+
+}
+
+#Servicios .Servicios .serv2 li {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+}
+
+#Servicios .Servicios .serv3 {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+
+}
+
+#Servicios .Servicios .serv3 li {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+}
+
+
+#Servicios .Servicios .serv4 {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+
+}
+
+#Servicios .Servicios .serv4 li {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+}
+
+#Servicios .Servicios .serv5 {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+
+}
+
+#Servicios .Servicios .serv5 li {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+}
+
+#Servicios .Servicios .serv6 {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+
+}
+
+#Servicios .Servicios .serv6 li {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+}
+
+#Servicios .Servicios .serv7 {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+
+}
+
+#Servicios .Servicios .serv7 li {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+}
+
+#Servicios .Servicios .serv8 {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+
+}
+
+#Servicios .Servicios .serv8 li {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+}
+
+
+#Servicios .Servicios .serv9 {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+
+}
+
+#Servicios .Servicios .serv9 li {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+}
+
+#Servicios .Servicios .serv10 {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+
+}
+
+#Servicios .Servicios .serv10 li {
+    margin: opx, opx, 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+}
+
+.Contacto {
+    background-color: hsl(30, 4%, 20%);
+    color: rgb(117, 119, 121);
+
+}
+
+.Contacto h1 {
+
+
+    background-color: hsl(30, 4%, 20%);
+    color: rgb(231, 238, 245);
+}
+
+.Contacto p {
+    background-color: hsl(30, 4%, 20%);
+    color: rgb(231, 238, 245);
+    margin: 10px;
+
+}
+
+.Contacto form {
+    color: rgb(231, 238, 245);
+    background: rgb(115, 118, 121) url("../img/Design\ 1.png");
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 80%;
+    margin: 40px;
+
+}
+
+.Contacto form input {
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+    border-radius: 20px;
+    width: 80%;
+    height: 30px;
+}
+
+.Contacto form textarea {
+
+    background: linear-gradient(to right, rgb(100, 100, 96), rgb(245, 209, 3));
+    border-radius: 20px;
+    width: 70%;
+    height: 100px;
+}
+
+.Contacto action imput {
+
+    width: 20%;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 200px;
+
+
+}
+
+.banfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redes{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.redes a {
+    color: #ffbf00;
+}
+
+
+ul .redes  {
+    text-align: center;
+    color: #ffbf00;
+}
+
+h7{
+    text-align: center;
+    color: #ffbf00;
+}
+
+@media (max-width: 768px) {
+    #menu-icon i.fa.fa-bars {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu.active {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+}
